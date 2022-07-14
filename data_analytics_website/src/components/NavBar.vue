@@ -1,15 +1,22 @@
 <template>
   <div>
-    <div id="top-bar">
-      <img>
-      <h2>
-        Website Title
-      </h2>
+
+    <div id="nav-fixed">
+      <div id="top-bar">
+        <img>
+        <h2>
+          Website Title
+        </h2>
+      </div>
+      <hr>
+      <div id="links-bar">
+        <input class="links" type="button" value="About">
+        <input class="links" type="button" value="Portfolio">
+        <input class="links" type="button" value="Contact">
+      </div>
     </div>
-    <div id="links-bar">
-      <a class="links" style="flex-grow: 3">About</a>
-      <a class="links">Portfolio</a>
-      <a class="links" style="flex-grow: 3">Contact</a>
+
+    <div id="nav-space">
     </div>
   </div>
 </template>
@@ -17,7 +24,7 @@
 
 
 <script>
-
+//need to use fixed position for the navbar
 export default {
   name: "NavBar"
 }
@@ -28,6 +35,16 @@ export default {
 </style>
 
 <style scoped>
+  #nav-space{
+    height: 120px;
+  }
+
+  #nav-fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #326872;
+  }
   #top-bar{
     width: 100%;
     text-align: center;
