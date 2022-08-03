@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="navbar">
 
     <div id="nav-fixed">
       <div id="top-bar">
@@ -21,8 +21,6 @@
   </div>
 </template>
 
-
-
 <script>
 //need to use fixed position for the navbar
 export default {
@@ -34,16 +32,22 @@ export default {
 
 </style>
 
-<style scoped>
+<style scoped lang="scss">
+  @import './../assets/variables.scss';
+
+  .navbar{
+    background-color: $primary-green;
+  }
+
   #nav-space{
-    height: 120px;
+    height: 16vh;
   }
 
   #nav-fixed{
     position: fixed;
     width: 100%;
     z-index: 10;
-    background-color: #326872;
+    background-color: $primary-green;
   }
   #top-bar{
     width: 100%;
