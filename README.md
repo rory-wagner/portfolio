@@ -1,6 +1,6 @@
 # ABOUT
 
-Simple Vue app for a static website.
+Simple Vue app to display my own portfolio.
 
 # SETUP
 
@@ -9,7 +9,7 @@ Simple Vue app for a static website.
 `Node.js v18.3.0`
 `npm@8.11.0`
 
-Can be installed from nodejs.org
+Node/npm can be installed from nodejs.org
 
 `@vue/cli 5.0.4`
 
@@ -17,7 +17,7 @@ Can be installed from nodejs.org
 
 ## Serving locally
 
-`cd` into `./data_analytics_website`
+`cd` into `./portfolio`
 
 `npm run serve`
 
