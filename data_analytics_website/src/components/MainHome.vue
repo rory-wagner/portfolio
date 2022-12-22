@@ -37,6 +37,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    height: 72vw;
   }
 
 </style>

@@ -19,6 +19,7 @@ export default {
 <style scoped>
   .flex-container{
     display: flex;
+    height: 100vh;
   }
   .left-text{
     flex: auto;

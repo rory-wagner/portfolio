@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="about-page">
     <div class="title-about">
       About
       About about about
@@ -9,7 +9,7 @@
         Predictive Modeling
         MachineLearning and AI
       </div>
-      <div class="right-picture">
+      <div class="right-text">
         Marketing Analytics
         Database Engineering
       </div>
@@ -25,11 +25,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .about-page{
+    height: 100vh;
+  }
 
   .flex-container{
     display: flex;
   }
-  .left-text, .right-picture{
+  .left-text, .right-text{
     flex: auto;
     text-align: center;
   }
