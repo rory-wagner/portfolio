@@ -6,12 +6,12 @@ Simple Vue app to display my own portfolio.
 
 ## Requirements and installation
 
-`Node.js v18.3.0`
-`npm@8.11.0`
+`Node.js v18.12.1`
+`npm@9.2.0`
 
 Node/npm can be installed from nodejs.org
 
-`@vue/cli 5.0.4`
+`@vue/cli 5.0.8`
 
 `npm install -g @vue/cli`
 
