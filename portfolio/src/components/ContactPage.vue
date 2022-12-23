@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute to limit CSS to this component and children only -->
 <style scoped>
 
   .contact-page{

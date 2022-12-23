@@ -1,17 +1,17 @@
 <template>
   <div class="about-page">
-    <div class="title-about">
-      About
-      About about about
-    </div>
     <div class="flex-container">
       <div class="left-text">
-        Predictive Modeling
-        MachineLearning and AI
+        <div class="title-about">
+          <h1>About Me</h1>
+        </div>
+        Hello! I'm Rory Wagner and I'm a software enthusiast.
+        I'm a software engineer at Vasion and I live near its headquarters in Saint George, Utah.
+        I have many interests besides just software, however.
+        These interests include, but are not limited to, Volleyball, Magic the Gathering, and Music.
       </div>
       <div class="right-text">
-        Marketing Analytics
-        Database Engineering
+        <img src="@/assets/rory_1.jpg" alt="Rory Wagner" style="max-width: 50vw"> 
       </div>
     </div>
   </div>
@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute to limit CSS to this component and children only -->
 <style scoped>
   .about-page{
     height: 100vh;

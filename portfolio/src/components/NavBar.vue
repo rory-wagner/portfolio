@@ -5,14 +5,14 @@
       <div id="top-bar">
         <img>
         <h2>
-          Website Title
+          Rory Wagner
         </h2>
       </div>
       <hr>
       <div id="links-bar">
         <input class="links" type="button" value="About">
-        <input class="links" type="button" value="Portfolio">
-        <input class="links" type="button" value="Contact">
+        <input class="links" type="button" value="Professional Portfolio">
+        <input class="links" type="button" value="Hobbies">
       </div>
     </div>
 
@@ -40,7 +40,7 @@ export default {
   }
 
   #nav-space{
-    height: 16vh;
+    height: 150px;
   }
 
   #nav-fixed{
