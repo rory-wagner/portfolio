@@ -6,10 +6,19 @@
       </div>
 
       <div>
-        I'm a Software Engineer currently working at Vasion.
-        I've graduated from Dixie State University with a bachelor's in Computer Science and enjoy everything tech related.
-        I have used many software development languages as shown in the rest of my portfolio and throughout this whole web app.
-        I have a few Git portfolios in various git version control services including  <a href="https://www.w3schools.com">Github</a>,  <a href="https://www.w3schools.com">Gitlab</a>, and  <a href="https://www.w3schools.com">Azure</a>.
+        <div>
+          I'm a Software Engineer currently working at Vasion.
+          I've graduated from Dixie State University with a bachelor's in Computer Science and enjoy everything tech related.
+          I have used many software development languages as shown in the rest of my portfolio and throughout this whole web app.
+          I have a few Git portfolios in various git version control services including  <a href="https://github.com/rory-wagner">Github</a> and <a href="https://gitlab.com/ro_boat">Gitlab</a>.
+        </div>
+        <div>
+          <img src="@/assets/github_logo.png" alt="Github logo" style="max-width: 20vw"> 
+          <img src="@/assets/gitlab_logo.png" alt="Gitlab logo" style="max-width: 20vw">
+        </div>
+        <div>
+          I have used many different technologies over my educational and professional career, including Go, C#/.NET, and Python and this portfolio website is written in Vue.
+        </div>
       </div>
 
       <!-- include pictures at the bottom here -->
@@ -42,6 +51,7 @@ export default {
     background-repeat: no-repeat;
     text-align: center;
     height: 72vh;
+    margin: 2em;
   }
 
 </style>
