@@ -1,22 +1,17 @@
 <template>
-  <div>
-    <h1>Hobbies</h1>
-    <div class="flex-container">
-      <div class="left-text">
-        I have a wide variety of hobbies and interests.
-        I have played sports most of my life and especially love playing, Basketball, Volleyball, and Ping Pong.
-        Music has always been a passion of mine. I love listening to all kinds of genres of music such as: Rock, Jazz, and Funk.
-        I love to play many instruments. My favorite to play is the drumset, although I love to play the piano and ukulele as well.
-      </div>
-      <div class="right-picture">
-        <!-- need pictures here -->
-        Lorem Ipsum
-        Lorem Ipsum      Lorem Ipsum
-        Lorem Ipsum      Lorem Ipsum
-        Lorem Ipsum      Lorem Ipsum
-        Lorem Ipsum      Lorem Ipsum
-        Lorem Ipsum
-      </div>
+  <div class="flex-container">
+    <div class="left-text">
+      <h1>Hobbies</h1>
+      I have a wide variety of hobbies and interests.
+      I have played sports most of my life and especially love playing, Basketball, Volleyball, and Ping Pong.
+      Music has always been a passion of mine.
+      I love listening and playing all kinds of genres of music such as: Rock, Jazz, and Funk.
+      I love to play many instruments.
+      My favorite to play is the drumset, although I love to play the piano and ukulele as well.
+      I am a big Rush and Neil Peart fan.
+    </div>
+    <div class="right-picture">
+      <img src="@/assets/drumset_outline.jpg" alt="Black and white drumset" style="max-width: 50vw"> 
     </div>
   </div>
 </template>
@@ -32,8 +27,10 @@ export default {
   .flex-container{
     display: flex;
     height: 100vh;
+    text-align: center;
   }
   .left-text{
+    margin: 2em;
     flex: auto;
   }
   .right-picture{
