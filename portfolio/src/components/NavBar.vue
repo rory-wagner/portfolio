@@ -8,7 +8,7 @@
           Rory Wagner
         </h2>
       </div>
-      <hr>
+      <!-- <hr> -->
       <div id="links-bar">
         <input class="links" type="button" value="About">
         <input class="links" type="button" value="Professional Portfolio">

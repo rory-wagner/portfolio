@@ -13,7 +13,7 @@
         I am currently taking a class at Utah Tech University to further my knowledge in Machine Learning.
       </div>
       <div class="right-text">
-        <img src="@/assets/rory_1.jpg" alt="Rory Wagner" style="max-width: 50vw"> 
+        <img src="@/assets/rory_1.jpg" alt="Rory Wagner" style="max-width: 50vw; max-height: 72vh;"> 
       </div>
     </div>
   </div>
@@ -28,7 +28,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component and children only -->
 <style scoped>
   .about-page{
-    height: 100vh;
+    height: 72vh;
   }
 
   .flex-container{
