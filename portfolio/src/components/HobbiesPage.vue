@@ -11,7 +11,7 @@
       I am a big Rush and Neil Peart fan.
     </div>
     <div class="right-picture">
-      <img src="@/assets/drumset_outline.jpg" alt="Black and white drumset" style="max-width: 50vw"> 
+      <img src="@/assets/drumset_outline.jpg" alt="Black and white drumset" style="max-width: 50vw; max-height: 40vh;"> 
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
 <style scoped>
   .flex-container{
     display: flex;
-    height: 100vh;
+    max-height: 50vh;
     text-align: center;
   }
   .left-text{

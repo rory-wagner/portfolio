@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="text-overlay" :style="textStyle">
+    <div id="text-overlay">
       <div>
         <h1>Portfolio</h1>
       </div>
@@ -19,6 +19,10 @@
         <div>
           I have used many different technologies over my educational and professional career, including Go, C#/.NET, and Python and this portfolio website is written in Vue.
         </div>
+        <img src="@/assets/golang.jpg" alt="Golang" style="max-width: 20vw; max-height: 20vh;">
+        <img src="@/assets/Csharp.png" alt="C#" style="max-width: 20vw; max-height: 20vh;">
+        <img src="@/assets/python.png" alt="Python" style="max-width: 20vw; max-height: 20vh;">
+        <img src="@/assets/logo.png" alt="Vue" style="max-width: 20vw; max-height: 20vh;">
       </div>
 
       <!-- include pictures at the bottom here -->
@@ -32,12 +36,6 @@
 export default {
   name: 'PortfolioPage',
   computed: {
-    // textDisplayWidth() {
-    //   let text_overlay = document.getElementById('text-overlay');
-    //   console.log(text_overlay)
-    //   return text_overlay.offsetWidth;
-    // },
-    // textStyle() { return "height: " + this.textDisplayWidth / 560 * 300 + ";" },
   },
 }
 </script>
@@ -46,12 +44,11 @@ export default {
 <style scoped>
 
   #text-overlay{
-    /* background-image: url("@/assets/AvatarState.gif"); */
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    height: 72vh;
-    margin: 2em;
+    max-height: 55vh;
+    margin: 4em;
   }
 
 </style>
