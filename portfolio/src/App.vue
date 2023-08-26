@@ -2,16 +2,17 @@
   <NavBar
     id="navbar"
   />
-  <!-- might add a side bar here -->
-  <AboutPage
-    id="aboutPage"
-  />
-  <PortfolioPage
-    id="mainhome"
-  />
-  <HobbiesPage
-    id="belowHome"
-  />
+  <div class="mainView">
+    <AboutPage
+      id="aboutPage"
+    />
+    <PortfolioPage
+      id="portfolioPage"
+    />
+    <HobbiesPage
+      id="hobbiesPage"
+    />
+  </div>
   <!-- <ContactPage
     id="contactPage"
   /> -->
@@ -19,9 +20,9 @@
 
 <script>
 import NavBar from './components/NavBar.vue'
+import AboutPage from './components/AboutPage.vue'
 import PortfolioPage from './components/PortfolioPage.vue'
 import HobbiesPage from './components/HobbiesPage.vue'
-import AboutPage from './components/AboutPage.vue'
 
 export default {
   name: 'App',
@@ -38,13 +39,21 @@ export default {
   body{
     margin: 0px;
   }
-  #navbar{
-    
+  .mainView{
+    overflow-y: scroll;
+    max-height: calc(100vh - 90px)
   }
-  #mainhome{
+  #navbar{
 
   }
-  #belowHome{
+  #portfolioPage{
+
+  }
+  #hobbiesPage{
     
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-y: hidden;
   }
 </style>
