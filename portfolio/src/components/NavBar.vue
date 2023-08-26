@@ -1,18 +1,23 @@
 <template>
   <div id="navbar">
-
     <div id="nav-fixed">
       <div id="top-bar">
-        <img>
+        <!-- <img> -->
         <h2>
           Rory Wagner
         </h2>
       </div>
       <!-- <hr> -->
       <div id="links-bar">
-        <input class="links" type="button" value="About">
-        <input class="links" type="button" value="Professional Portfolio">
-        <input class="links" type="button" value="Hobbies">
+        <a class="a-links" href="#aboutPage">
+          <input class="input-links" type="button" value="About">
+        </a>
+        <a class="a-links" href="#portfolioPage">
+          <input class="input-links" type="button" value="Professional Portfolio">
+        </a>
+        <a class="a-links" href="#hobbiesPage">
+          <input class="input-links" type="button" value="Hobbies">
+        </a>
       </div>
     </div>
 
@@ -40,7 +45,7 @@ export default {
   }
 
   #nav-space{
-    height: 150px;
+    height: 120px;
   }
 
   #nav-fixed{
@@ -60,8 +65,12 @@ export default {
     width: 100%;
   }
 
-  .links{
+  .input-links{
     width: 100%;
     text-align: center;
+  }
+
+  .a-links{
+    width: 100%;
   }
 </style>

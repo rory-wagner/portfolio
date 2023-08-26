@@ -5,12 +5,14 @@
         <div class="title-about">
           <h1>About Me</h1>
         </div>
-        Hello! My name is Rory Wagner and I am a software enthusiast.
-        I am a Software Engineer at Vasion and I live near its headquarters in Saint George, Utah.
-        I have many interests besides just software.
-        These interests include, but are not limited to, Volleyball, Magic the Gathering, and Music.
-        I have always been curious about AI, Machine Learning, and Neural Networks.
-        I am currently taking a class at Utah Tech University to further my knowledge in Machine Learning.
+        <p>
+          Hello! My name is Rory Wagner and I am a software enthusiast.
+          I am a Software Engineer at Vasion and I live near its headquarters in Saint George, Utah.
+          I have many interests besides just computing.
+          These interests include, but are not limited to, Volleyball, Magic the Gathering, Music, and Drama.
+          I have always been curious about AI, Machine Learning, and Neural Networks.
+          I also enjoy learning about Cryptography and System Architecture.
+        </p>
       </div>
       <div class="right-text">
         <img src="@/assets/rory_1.jpg" alt="Rory Wagner" style="max-width: 50vw; max-height: 72vh;"> 
@@ -27,12 +29,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component and children only -->
 <style scoped>
+  p{
+    text-align: initial;
+  }
   .about-page{
-    height: 72vh;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-height: 72vh;
   }
 
   .flex-container{
     display: flex;
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
   }
   .left-text, .right-text{
     flex: auto;
@@ -40,7 +50,17 @@ export default {
   }
 
   .left-text{
-    margin: 2em;
+    margin: 0em 2em 2em 2em;
+  }
+
+  @media screen and (max-width: 800px) {
+    .flex-container{
+      display: block;
+      max-width: 100vw;
+    }
+    .about-page{
+      max-height: 100%;
+    }
   }
 
 </style>
