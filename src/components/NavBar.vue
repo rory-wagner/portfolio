@@ -10,17 +10,16 @@
       <!-- <hr> -->
       <div id="links-bar">
         <a class="a-links" href="#aboutPage">
-          <input class="input-links" type="button" value="About">
+          <button class="input-links" role="button">About</button>
         </a>
         <a class="a-links" href="#portfolioPage">
-          <input class="input-links" type="button" value="Professional Portfolio">
+          <button class="input-links" role="button">Professional Portfolio</button>
         </a>
         <a class="a-links" href="#hobbiesPage">
-          <input class="input-links" type="button" value="Hobbies">
+          <button class="input-links" role="button">Hobbies</button>
         </a>
       </div>
     </div>
-
     <div id="nav-space">
     </div>
   </div>
@@ -64,10 +63,62 @@ export default {
     flex-direction: row;
     width: 100%;
   }
-
-  .input-links{
+  .input-links {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
     width: 100%;
-    text-align: center;
+  }
+
+  .input-links:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+
+  .input-links:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+
+  .input-links:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+
+  .input-links:focus {
+    outline: 1px transparent;
+  }
+
+  .input-links:before {
+    display: none;
+  }
+
+  .input-links:-webkit-details-marker {
+    display: none;
   }
 
   .a-links{

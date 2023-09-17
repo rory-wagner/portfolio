@@ -41,7 +41,7 @@ export default {
   }
   .mainView{
     overflow-y: scroll;
-    max-height: calc(100vh - 90px)
+    max-height: calc(100vh - 100px)
   }
   #navbar{
 
