@@ -56,10 +56,6 @@ export default {
     .flex-container{
       display: block;
     }
-
-    .flex-container{
-      max-height: none;
-    }
   }
 
 </style>
