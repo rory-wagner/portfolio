@@ -12,6 +12,9 @@
     <HobbiesPage
       id="hobbiesPage"
     />
+    <TheatrePage
+      id="theatrePage"
+    />
   </div>
   <!-- <ContactPage
     id="contactPage"
@@ -23,11 +26,14 @@ import NavBar from './components/NavBar.vue'
 import AboutPage from './components/AboutPage.vue'
 import PortfolioPage from './components/PortfolioPage.vue'
 import HobbiesPage from './components/HobbiesPage.vue'
+import TheatrePage from './components/TheatrePage.vue'
+
 
 export default {
   name: 'App',
   components: {
     NavBar,
+    TheatrePage,
     PortfolioPage,
     HobbiesPage,
     AboutPage,
