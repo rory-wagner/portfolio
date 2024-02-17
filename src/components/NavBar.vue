@@ -13,10 +13,13 @@
           <button class="input-links" role="button">About</button>
         </a>
         <a class="a-links" href="#portfolioPage">
-          <button class="input-links" role="button">Professional Portfolio</button>
+          <button class="input-links" role="button">Career</button>
         </a>
         <a class="a-links" href="#hobbiesPage">
           <button class="input-links" role="button">Hobbies</button>
+        </a>
+        <a class="a-links" href="#theatrePage">
+          <button class="input-links" role="button">Theatre</button>
         </a>
       </div>
     </div>

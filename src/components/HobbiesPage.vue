@@ -15,7 +15,7 @@
       </p>
     </div>
     <div class="right-picture">
-      <img src="@/assets/drumset_outline.jpg" alt="Black and white drumset" style="max-width: 50vw; max-height: 40vh;"> 
+      <img src="@/assets/drumset_outline.jpg" alt="Black and white drumset" style="max-width: 50vw; max-height: 40vh;" class="picture"> 
     </div>
   </div>
 </template>
@@ -33,7 +33,6 @@ export default {
   }
   .flex-container{
     display: flex;
-    max-height: 50vh;
     text-align: center;
     max-width: 75vw;
     margin-left: auto;
@@ -47,6 +46,12 @@ export default {
     margin: 2em 0em 0em 0em;
     flex: auto;
   }
+  @media screen and (max-width: 900px) {
+    .picture{
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 800px) {
     .flex-container{
       display: block;
