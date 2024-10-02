@@ -23,4 +23,4 @@ Node/npm can be installed from nodejs.org
 
 ## Serving in Github Pages
 
-***Not working yet***
+[Home Page](https://rory-wagner.github.io/portfolio/)
