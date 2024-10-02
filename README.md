@@ -1,6 +1,8 @@
 # ABOUT
 
 Simple Vue app to display my own portfolio.
+This is open source.
+Anyone is allowed to copy this for their own portfolio or fork and use it as a template.
 
 # SETUP
 
