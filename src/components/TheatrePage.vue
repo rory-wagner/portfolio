@@ -41,6 +41,8 @@ export default {
     text-align: initial;
   }
   .theatre-page{
+    padding-top: 2em;
+    padding-bottom: 2em;
     background-color: $primary-blue;
   }
   .text-overlay{
@@ -62,7 +64,7 @@ export default {
   .picture{
     max-width: 20vw;
     max-height: 25vh;
-    margin: 1vw;
+    margin: 1vw auto 1vw auto;
   }
   @media screen and (max-width: 800px) {
     .text-overlay{

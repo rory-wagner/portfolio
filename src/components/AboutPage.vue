@@ -6,8 +6,8 @@
           <h1>About Me</h1>
         </div>
         <p>
-          Hello! My name is Rory Wagner and I am a software enthusiast.
-          I am a Software Engineer at Vasion and I live near its headquarters in Saint George, Utah.
+          My name is Rory Wagner and I am a software enthusiast.
+          I am a Software Engineer and currently a Game Developer for my own LLC, Wagner Gaming.
           I have many interests besides just computing.
           These interests include, but are not limited to, Volleyball, Magic the Gathering, Music, and Drama.
           I have always been curious about AI, Machine Learning, and Neural Networks.

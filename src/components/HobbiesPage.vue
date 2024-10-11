@@ -9,9 +9,8 @@
       <p>
         Music has always been a passion of mine.
         I love listening and playing all kinds of genres of music such as: Rock, Jazz, and Funk.
-        I love to play many instruments.
-        My favorite instrument to play is the drumset, although I love to play the piano and ukulele as well.
-        My three favorite bands to listen to right now are Rush, Dirty Loops, and Volbeat.
+        My favorite instrument to play is the drumset, although I love to play the piano, bass, and ukulele as well.
+        My three favorite bands to listen to right now are Dirty Loops, Rush, and Volbeat.
       </p>
     </div>
     <div class="right-picture">
