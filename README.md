@@ -19,7 +19,7 @@ Node/npm can be installed from nodejs.org
 
 ## Serving locally
 
-`cd` into `./portfolio`
+`cd` into `./src`
 
 `npm run serve`
 
