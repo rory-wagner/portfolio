@@ -4,6 +4,10 @@ Simple Vue app to display my own portfolio.
 
 The purpose of this is for others to also show off their own portfolio by forking this and using it as a template.
 
+This is utilizing Github Pages to show off a free website.
+
+Thanks to Github for providing this free for all of their users!
+
 # SETUP
 
 ## Requirements and installation
