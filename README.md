@@ -34,10 +34,6 @@ cd ./src
 npm run serve
 ```
 
-## Serving in Github Pages
-
-[Home Page](https://rory-wagner.github.io/portfolio/)
-
 # Contributing/Making it your own
 
 Make sure you are familiar with vue.
