@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio-page">
+  <div id="portfolioPage" class="portfolio-page">
     <div class="text-overlay">
       <div class="portfolio-header-div">
         <h1>Portfolio</h1>
@@ -9,11 +9,13 @@
         <div>
           <p>
             I'm a Software Engineer currently working for my own LLC, Wagner Gaming.
-            I am always on the lookout for a role in backend development.
+            I am also a Software Engineer working at Vasion.
             I have experience in quite a few backend languages, but my favorites are: Go, Python, and C#.
-            I have used many other languages as shown in the rest of my portfolio and throughout this web app which I have left as a public repository that anyone can clone for their own portfolio.
+            I have used many other languages as shown in the rest of my portfolio and throughout this web app which I have left as a public repository.
+            This is so anyone can take this repository as a template and learn to make it their own.
+            I love to share knowledge! <br/>
             I have worked on teams that have used both Scrum and Kanban as their workflow management methodologies.
-            I've graduated from Dixie State University with a bachelor's in Computer Science, and that was where I learned about my love for the technical field.
+            I've graduated from Dixie State University with a bachelor's in Computer Science, and that was where I learned about my love for the technology field.
             Please checkout my <a href="https://github.com/rory-wagner">Github</a> portfolio.
           </p>
         </div>
@@ -53,19 +55,28 @@ export default {
     text-align: initial;
   }
   .portfolio-page{
-    padding-top: 2em;
-    margin-bottom: 2em;
-    background-color: $primary-blue;
+    padding: 28px;
+    margin-bottom: 2rem;
+    background: rgba(255,255,255,0.02);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+    box-sizing: border-box;
+    overflow: hidden;
   }
   .text-overlay{
     margin-left: auto;
     margin-right: auto;
-    width: 75vw;
+    width: 100%;
+    max-width: 100%;
     text-align: center;
+    box-sizing: border-box;
   }
 
   .portfolio-img-div{
     display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -74,16 +85,21 @@ export default {
     display: none;
   }
   .picture{
-    max-width: 20vw;
-    max-height: 20vh;
-    margin: 2vw auto 2vw auto;
+    display: block;
+    max-width: 160px;
+    width: 100%;
+    height: auto;
+    margin: 12px;
+    object-fit: contain;
+    border-radius: 6px;
   }
   @media screen and (max-width: 800px) {
     .text-overlay{
-      width: 90vw;
+      width: 100%;
     }
     .picture{
-      display: none;
+      max-width: 120px;
+      margin: 8px;
     }
   }
 

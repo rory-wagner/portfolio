@@ -1,4 +1,26 @@
-$primary-green: #326872;
-$primary-white: #d7dbdb;
-$primary-blue: #8EB8BF;
-$primary-black: #0a0a0a;
+// SASS variables (kept for components) and CSS variables for global use
+$primary-navy: #0f1724;
+$accent-coral: #ff6b66;
+$muted-slate: #94a3b8;
+$ivory: #f8fafc;
+
+:root{
+	--bg: #0f1724;
+	--surface: #0b1220;
+	--accent: #ff6b66;
+	--muted: #94a3b8;
+	--ivory: #f8fafc;
+	--glass: rgba(255,255,255,0.04);
+	--text: #E6EEF6;
+  --nav-height: 72px;
+}
+
+// Utility sizes
+$nav-height: 72px;
+
+// Single band color used for section backgrounds
+$band-color: #0b1220;
+
+:root{
+	--band: #0b1220;
+}
