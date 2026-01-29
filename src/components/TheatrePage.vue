@@ -1,5 +1,5 @@
 <template>
-  <div class="theatre-page">
+  <div id="theatrePage" class="theatre-page">
     <div class="text-overlay">
       <div class="theatre-header-div">
         <h1>Theatre</h1>
@@ -10,8 +10,8 @@
           <p>
             I love to act!
             I've been in theatre since high school.
-            I have been in She Loves Me, Fiddler on the Roof, and Joseph and the Amazing Technicolor Dreamcoat.
-            Being in theatre gives me a chance to express a character's story.
+            I have had the privilege of being in amazing musicals like Joseph and the Amazing Technicolor Dreamcoat, The Man of La Mancha, Fiddler on the Roof, Bonnie and Clyde, and She Loves Me.
+            Being in theatre gives me a chance to express a character's story while being a part of an amazing team.
             My favorite part of theatre is the great amount of energy that goes into the atmosphere.
           </p>
         </div>
@@ -41,19 +41,28 @@ export default {
     text-align: initial;
   }
   .theatre-page{
-    padding-top: 2em;
-    padding-bottom: 2em;
-    background-color: $primary-blue;
+    padding: 24px;
+    margin-bottom: 2rem;
+    background: rgba(255,255,255,0.02);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+    box-sizing: border-box;
+    overflow: hidden;
   }
   .text-overlay{
     margin-left: auto;
     margin-right: auto;
-    width: 75vw;
+    width: 100%;
+    max-width: 100%;
     text-align: center;
+    box-sizing: border-box;
   }
 
   .theatre-img-div{
     display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -62,17 +71,21 @@ export default {
     display: none;
   }
   .picture{
-    max-width: 20vw;
-    max-height: 25vh;
-    margin: 1vw auto 1vw auto;
+    display: block;
+    max-width: 160px;
+    width: 100%;
+    height: auto;
+    margin: 12px;
+    object-fit: contain;
+    border-radius: 6px;
   }
   @media screen and (max-width: 800px) {
     .text-overlay{
-      width: 90vw;
+      width: 100%;
       padding-bottom: 2em;
     }
     .picture{
-      display: none;
+      max-width: 120px;
     }
   }
 
