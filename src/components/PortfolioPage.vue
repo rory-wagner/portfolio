@@ -8,8 +8,8 @@
       <div>
         <div>
           <p>
-            I'm a Software Engineer currently working for my own LLC, Wagner Gaming.
-            I am also a Software Engineer working at Vasion.
+            I've been a Software Engineer since 2019.
+            I am currently working at Vasion building workflow management software.
             I have experience in quite a few backend languages, but my favorites are: Go, Python, and C#.
             I have used many other languages as shown in the rest of my portfolio and throughout this web app which I have left as a public repository.
             This is so anyone can take this repository as a template and learn to make it their own.
