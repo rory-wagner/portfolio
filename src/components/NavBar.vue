@@ -19,6 +19,7 @@
         <nav id="nav-links" class="links" :class="{ open: isOpen }">
           <a class="link" href="#aboutPage" @click="closeMenu">About</a>
           <a class="link" href="#portfolioPage" @click="closeMenu">Career</a>
+          <a class="link" href="#projectsPage" @click="closeMenu">Projects</a>
           <a class="link" href="#hobbiesPage" @click="closeMenu">Hobbies</a>
           <a class="link" href="#theatrePage" @click="closeMenu">Theatre</a>
         </nav>

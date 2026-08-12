@@ -5,6 +5,7 @@
       <div class="mainView">
         <AboutPage />
         <PortfolioPage />
+        <ProjectsPage />
         <HobbiesPage />
         <TheatrePage />
       </div>
@@ -18,6 +19,7 @@ import AboutPage from './components/AboutPage.vue'
 import PortfolioPage from './components/PortfolioPage.vue'
 import HobbiesPage from './components/HobbiesPage.vue'
 import TheatrePage from './components/TheatrePage.vue'
+import ProjectsPage from './components/ProjectsPage.vue'
 
 
 export default {
@@ -26,6 +28,7 @@ export default {
     NavBar,
     TheatrePage,
     PortfolioPage,
+    ProjectsPage,
     HobbiesPage,
     AboutPage,
   }
