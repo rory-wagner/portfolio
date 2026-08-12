@@ -6,40 +6,33 @@
 
     <div class="projects-grid">
       <div
-        v-for="project in projects"
-        :key="project.title"
+        v-for="(project, index) in projects"
+        :key="index"
         class="project-card"
       >
-        <a
-          v-if="project.link"
-          :href="project.link"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="card-screenshot-link"
+        <component
+          :is="project.link ? 'a' : 'div'"
+          v-bind="project.link ? {
+            href: project.link,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+          } : {}"
+          :class="{ 'card-screenshot-link': project.link }"
         >
           <div class="card-screenshot">
             <img
               v-if="project.image"
               :src="project.image"
               :alt="project.title + ' screenshot'"
+              loading="lazy"
+              decoding="async"
               class="card-img"
             />
             <div v-else class="card-img-placeholder">
               <span>No Screenshot</span>
             </div>
           </div>
-        </a>
-        <div v-else class="card-screenshot">
-          <img
-            v-if="project.image"
-            :src="project.image"
-            :alt="project.title + ' screenshot'"
-            class="card-img"
-          />
-          <div v-else class="card-img-placeholder">
-            <span>No Screenshot</span>
-          </div>
-        </div>
+        </component>
 
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>
